@@ -1,0 +1,7 @@
+# KR/ is a separate git repo (github.com/EnragedMongoose/KR).
+# It lives inside this folder but must never be tracked here.
+KR/
+
+# Compiled binaries
+*.o
+*.out
