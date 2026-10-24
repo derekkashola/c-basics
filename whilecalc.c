@@ -10,7 +10,7 @@ int main(void) {
   printf("This calculator only has + - * / \n");
   while (looping) {
     printf("Start of loop: \n");
-    if (previous_answer != NULL) {
+    if (previous_answer != 0) {
       scanf(" %c", &op);
     } else {
       scanf(" %d", &entry1);
